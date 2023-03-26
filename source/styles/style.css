@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+body {
+    font-family: Caveat, serif;
+    font-size: 2em;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+}
+
+.logo2 {
+    width: 300px;
+    height: 130px;
+}
+
+.navbar-nav>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    background: linear-gradient(90deg, #B19A9A 11%, #FFC4C4 100%);
+}
+
+.phone {
+    width: 35px;
+    height: 35px;
+}
+
+.photo {
+    width: 400px;
+    height: 400px;
+}
+
+.photo2 {
+    width: 400px;
+    height: 500px;
+}
+
+.job {
+    font-size: 1.5em;
+    text-decoration: solid;
+}
+
+.pictogramm {
+    width: 130px;
+    height: 130px;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateY(-45px);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateY(-24px);
+    }
+
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateY(-12px);
+    }
+
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateY(-6px);
+    }
+
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateY(-4px);
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        animation-timing-function: ease-out;
+        transform: translateY(0px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+footer{
+    background: linear-gradient(270deg, #B19A9A 11%, #FFC4C4 100%);
+}
